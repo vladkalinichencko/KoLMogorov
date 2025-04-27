@@ -1,0 +1,13 @@
+{
+  "model_name": "deepseek-ai/deepseek-coder-1.3b-instruct",
+  "data_path": "src/data/seqcoder_training_data/10k.jsonl",
+  "eval_data_path": "src/data/sub_sequences_length_128_1mb/text.jsonl",
+  "output_dir": "checkpoints/rl_kolmogorov",
+  "num_epochs": 10,
+  "batch_size": 8,
+  "learning_rate": 1e-05,
+  "reward_constant": 100.0,
+  "length_penalty": 0.1,
+  "checkpoint_freq": 2,
+  "eval_freq": 2
+}
